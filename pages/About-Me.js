@@ -25,10 +25,10 @@ export default function About() {
             </div>
             {/* About Content */}
             <div className="flex flex-col items-center justify-center 2xl:space-x-14 xl:space-x-10 xl:py-12">
-              <h1 className="font-bold text-3xl text-center 2xl:ml-5 md:text-4xl 2xl:text-6xl xl:text-center xl:items-center">
+              <h1 className="font-bold text-2xl text-center 2xl:ml-5 md:text-4xl 2xl:text-6xl xl:text-center xl:items-center">
                 Hi My Name is Sebastian
               </h1>
-              <p className="max-w-4xl text-lg mx-5 mt-2 md:text-3xl md:max-w-4xl xl:max-w-2xl xl:mt-2 2xl:max-w-4xl text-justify">
+              <p className="max-w-4xl text-md mx-5 mt-2 md:text-3xl md:max-w-4xl xl:max-w-2xl xl:mt-2 2xl:max-w-4xl text-justify">
                 Im a 11th grader Software Engineering student at SMK N 1 Denpasar that like to try
                 new things, im also a novice front end website developer and a
                 beginner UI/UX Designer
@@ -40,36 +40,36 @@ export default function About() {
                 </p>
               </div>
               {/* Skill List */}
-              <div className="flex gap-x-3 mt-5 md:space-x-14 lg:space-x-60 xl:space-x-14">
-                <div className="bg-[#025a4e] rounded-lg w-32 mt-4 xl:mr-7">
-                  <h1 className="font-bold text-white ml-4 mt-2">Figma</h1>
-                  <p className="text-white ml-4">UI/UX Design</p>
-                  <h1 className="font-bold text-white ml-4 mt-2">Java</h1>
-                  <p className="text-white ml-4">Programming</p>
+              <div className="flex gap-x-3 mt-5 md:space-x-14 lg:space-x-60 xl:space-x-14 text-xs md:text-lg">
+                <div className="bg-[#025a4e] rounded-lg mt-4 xl:mr-7 pr-2 md:w-32">
+                  <h1 className="font-bold text-white ml-2 mt-2">Figma</h1>
+                  <p className="text-white ml-2">UI/UX Design</p>
+                  <h1 className="font-bold text-white ml-2 mt-2">Java</h1>
+                  <p className="text-white ml-2">Programming</p>
                 </div>
-                <div className="bg-[#025a4e] rounded-lg w-32 mt-4">
-                  <h1 className="font-bold text-white ml-4 mt-2">CSS</h1>
-                  <p className="text-white ml-4">Front End</p>
-                  <h1 className="font-bold text-white ml-4 mt-2">C#</h1>
-                  <p className="text-white ml-4">Unity</p>
+                <div className="bg-[#025a4e] rounded-lg mt-4 pr-2 md:w-32">
+                  <h1 className="font-bold text-white ml-2 mt-2">CSS</h1>
+                  <p className="text-white ml-2">Front End</p>
+                  <h1 className="font-bold text-white ml-2 mt-2">C#</h1>
+                  <p className="text-white ml-2">Unity</p>
                 </div>
                 <div className="block">
-                  <div className="bg-[#025a4e] rounded-lg w-32 mt-4">
-                    <h1 className="font-bold text-white ml-4 mt-2">HTML</h1>
-                    <p className="text-white ml-4">Front End</p>
+                  <div className="bg-[#025a4e] rounded-lg mt-4 pr-2 md:w-32">
+                    <h1 className="font-bold text-white ml-2 mt-2">HTML</h1>
+                    <p className="text-white ml-2">Front End</p>
                   </div>
-                  <div className="bg-[#025a4e] rounded-lg w-32 mt-4">
-                    <h1 className="font-bold text-white ml-4 mt-2">Python</h1>
-                    <p className="text-white ml-4">Programming</p>
+                  <div className="bg-[#025a4e] rounded-lg mt-4 pr-2 md:w-32">
+                    <h1 className="font-bold text-white ml-2 mt-2">Python</h1>
+                    <p className="text-white ml-2">Programming</p>
                   </div>
                 </div>
               </div>
               {/* Other */}
               <div className="flex flex-col items-center justify-center mt-7">
-                <h1 className="font-bold text-3xl md:text-4xl xl:text-4xl 2xl:text-6xl">
+                <h1 className="font-bold text-2xl md:text-4xl xl:text-4xl 2xl:text-6xl">
                   Other Things about me
                 </h1>
-                <p className="text-justify md:max-w-4xl lg:max-w-4xl 2xl: max-w-4xl mx-5 mt-2 text-lg xl:max-w-2xl md:text-3xl 2xl:text-4xl 2xl:max-w-4xl mb-5 md:mt-3">
+                <p className="text-justify md:max-w-4xl lg:max-w-4xl 2xl: max-w-4xl mx-5 mt-2 text-md xl:max-w-2xl md:text-3xl 2xl:text-4xl 2xl:max-w-4xl mb-5 md:mt-3">
                   Beside being a front end developer being a video editor is one
                   of my passion and im also a beginner photographer i love to
                   explore new things and learned the new thing from the
