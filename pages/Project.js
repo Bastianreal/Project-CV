@@ -8,7 +8,7 @@ import about from "./About-Me";
 import Footer from "./Footer";
 import Editing from "../public/editing.jpg";
 import Figma from "../public/Figma.png";
-import Scratch from "../public/scratch.png";
+import Scratch from "../public/Scratch.png";
 import Web from "../public/Web-Pribadi.png";
 function Project() {
   return (

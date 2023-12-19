@@ -4,7 +4,7 @@ import Image from "next/image";
 import Navbar from "./Navbar";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
-import youtube from "../public/Youtube.svg";
+import youtube from "../public/youtube.svg";
 import github from "../public/github.svg";
 import house from "../public/house.svg";
 import phone from "../public/phone.svg";
