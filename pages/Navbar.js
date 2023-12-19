@@ -52,10 +52,10 @@ const Navbar = () => {
                 
               </div>
             </div>
-            <div className="md:hidden flex items-center">
+            <div className="md:hidden flex items-center z-1">
               <button
                 className="inline-flex items-center justify-center p-2 rounded-md text-[#025a4e] 
-                            focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#025a4e]"
+                            focus:outline-none focus:ring-2 focus:ring-[#025a4e]"
                             onClick={toggleNavbar}
               >
                 {isClick ? (
@@ -95,9 +95,9 @@ const Navbar = () => {
           </div>
         </div>
         {isClick && (
-          <div className="md:hidden transition duration-300 ">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#025a4e] font-poppins
-            ">
+          <div className="animate-fadein">
+          <div className="md:hidden absolute w-full">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#025a4e] font-poppins animate-geser focus:ease-in-out focus:duration-500">
               <Link
                 href="/"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
@@ -123,6 +123,7 @@ const Navbar = () => {
                 </button>
                 </Link>
             </div>
+          </div>
           </div>
         )}
       </nav>

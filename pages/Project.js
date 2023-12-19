@@ -16,14 +16,14 @@ function Project() {
       <Navbar />
       {/* Title */}
       <div className="font-nunito px-6">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center ">
           <h1 className="font-bold text-3xl text-[#0a5d4f]">PROJECTS</h1>
-          <hr className="border-[#0a5d4f] border-2 rounded-2xl opacity-50 w-20"></hr>
-          <p className="text-sm opacity-60 max-w-md text-center">
+          <hr className="border-[#0a5d4f] border-2 rounded-2xl opacity-50 w-20 flex flex-col -z-30"></hr>
+          <p className="text-sm opacity-60 max-w-md text-center flex flex-col -z-30">
             Here you will find all of the project ive done in the past
           </p>
           {/* Project Content */}
-          <div className="space-y-6 mb-6">
+          <div className="flex flex-col -z-30 space-y-6 mb-6">
             {/* Editing */}
             <div className="bg-[#0a5d4f] w-full rounded-lg xl:w-[1000px] p-5 drop-shadow-lg hover:translate-y-2 duration-500 xl:justify-between">
               <div className="mt-3">

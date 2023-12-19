@@ -14,11 +14,11 @@ export default function About() {
     <>
       <Navbar />
       {/* Title */}
-      <div className="font-nunito text-[#025a4e]">
+      <div className="font-nunito text-[#025a4e] -z-20">
         <div className="flex flex-col items-center justify-center">
           <h1 className="font-bold text-3xl md:text-5xl">ABOUT ME</h1>
-          <hr className="border-black border-2 w-24 md:w-48 rounded-xl opacity-40"></hr>
-          <p className="text-sm text-black opacity-50 md:text-lg">Know More About Me</p>
+          <hr className="border-black border-2 w-24 md:w-48 rounded-xl opacity-40 -z-10"></hr>
+          <p className="text-sm text-black opacity-50 md:text-lg -z-30">Know More About Me</p>
           <div className="flex flex-col items-center justify-center 2xl:flex 2xl:flex-row xl:flex xl:flex-row space-y-5 2xl:py-8">
             <div className="w-full px-10 py-3 md:px-36 xl:p-0 xl:w-[500px]">
               <Image src={profile} alt="profile"></Image>
@@ -34,7 +34,7 @@ export default function About() {
                 beginner UI/UX Designer
               </p>
               <div className="flex flex-row h-fit mt-7 opacity-60 md:hidden">
-                <Image src={arrow} alt="arrow"></Image>
+                <Image className="animate-bounce" src={arrow} alt="arrow"></Image>
                 <p className="text-black ml-2 md:hidden">
                   See what i can do below
                 </p>
