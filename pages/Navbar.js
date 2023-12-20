@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-[#ede7de]">
+      <nav className="bg-[#ede7de] ">
         <div className="max-m-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center ">
@@ -45,18 +45,20 @@ const Navbar = () => {
                 <Link
                   href="/Project"
                   className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2"
-                  >
+                 >
                     Project
                   </Link>
                   
                 
               </div>
             </div>
+
+
+
             <div className="md:hidden flex items-center z-1">
               <button
                 className="inline-flex items-center justify-center p-2 rounded-md text-[#025a4e] 
-                            focus:outline-none focus:ring-2 focus:ring-[#025a4e]"
-                            onClick={toggleNavbar}
+                            focus:outline-none focus:ring-2 focus:ring-[#025a4e] " onClick={toggleNavbar}          
               >
                 {isClick ? (
                   <svg
@@ -92,27 +94,28 @@ const Navbar = () => {
                 )}
               </button>
             </div>
+                  
           </div>
         </div>
         {isClick && (
-          <div className="animate-fadein">
-          <div className="md:hidden absolute w-full">
+          <div className="animate-fadein ">
+          <div className="md:hidden fixed w-full">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#025a4e] font-poppins animate-geser focus:ease-in-out focus:duration-500">
               <Link
                 href="/"
-                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white  hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 Home
               </Link>
               <Link
                 href="About-Me"
-                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white  hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 About
               </Link>
               <Link
                 href="Project"
-                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
                 onClick={toggleNavbar}
               >
                 Project
@@ -127,6 +130,7 @@ const Navbar = () => {
           </div>
         )}
       </nav>
+      
     </>
   );
 };

@@ -14,9 +14,9 @@ export default function About() {
     <>
       <Navbar />
       {/* Title */}
-      <div className="font-nunito text-[#025a4e] -z-20">
+      <div className="font-nunito text-[#025a4e] ">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="font-bold text-3xl md:text-5xl">ABOUT ME</h1>
+          <h1 className="font-bold text-3xl md:text-5xl -z-20">ABOUT ME</h1>
           <hr className="border-black border-2 w-24 md:w-48 rounded-xl opacity-40 -z-10"></hr>
           <p className="text-sm text-black opacity-50 md:text-lg -z-30">Know More About Me</p>
           <div className="flex flex-col items-center justify-center 2xl:flex 2xl:flex-row xl:flex xl:flex-row space-y-5 2xl:py-8">
