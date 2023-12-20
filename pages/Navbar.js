@@ -98,24 +98,24 @@ const Navbar = () => {
           </div>
         </div>
         {isClick && (
-          <div className="animate-fadein ">
-          <div className="md:hidden fixed w-full">
+          <div className="animate-fadein flex flex-col z-50 absolute w-full">
+          <div className="md:hidden ">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#025a4e] font-poppins animate-geser focus:ease-in-out focus:duration-500">
               <Link
                 href="/"
-                className="text-white  hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 Home
               </Link>
               <Link
                 href="About-Me"
-                className="text-white  hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 About
               </Link>
               <Link
                 href="Project"
-                className="text-white hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
+                className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
                 onClick={toggleNavbar}
               >
                 Project

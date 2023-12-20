@@ -24,42 +24,36 @@ function Project() {
           </p>
           {/* Project Content */}
           <div className="flex flex-col md:z-0 space-y-6 mb-6">
-            {/* Editing */}
-            <div className="">
+            {/* Editing */}            
               <div className="bg-[#0a5d4f] w-full rounded-lg xl:w-[1000px] p-5 drop-shadow-lg hover:translate-y-2 duration-500 xl:justify-between ">
-                <div className="mt-3">
+                <div className="mt-3 xl:flex">
                   <div className="xl:flex xl:w-[500px]">
                     <Image
                       className="rounded-lg"
                       src={Editing}
                       alt="editing"
                     ></Image>
+                  </div>
+                  <div className="xl:ml-6 xl:flex flex-col xl:justify-center">
+                    <h1 className="font-bold text-white text-2xl">
+                      Editing Video
+                    </h1>
+                    <div className="xl:w-fit">
+                      <p className="text-white mt-0.5 xl:w-96">
+                        Editing a video is one of my passion i worked on this
+                        video about penglipuran where we do a documentary type
+                        video for a school project
+                      </p>
                     </div>
-
-                    <div className="xl:ml-6 xl:flex flex-col xl:justify-center">
-                      <h1 className="font-bold text-white text-2xl">
-                        Editing Video
-                      </h1>
-                      <div className="xl:w-fit">
-                        <p className="text-white mt-0.5 xl:w-96">
-                          Editing a video is one of my passion i worked on this
-                          video about penglipuran where we do a documentary type
-                          video for a school project
-                        </p>
-                      </div>
-                      <button className="border-4 border-[#ede7de] z-50  hover:bg-[#ede7de] rounded-lg font-bold w-28 h-12 hover:text-[#0a5d4f] transition duration-500 text-md text-[#ede7de] xl:mt-2">
-                <a href="https://www.youtube.com/watch?v=aQjf_OySVt8">
-                  {" "}
-                  Check It Out
-                </a>
-              </button>
-                    </div>
+                    <button className="border-4 border-[#ede7de] z-50  hover:bg-[#ede7de] rounded-lg font-bold w-28 h-12 hover:text-[#0a5d4f] transition duration-500 text-md text-[#ede7de] xl:mt-2">
+                      <a href="https://www.youtube.com/watch?v=aQjf_OySVt8">
+                        {" "}
+                        Check It Out
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
-      
-            
-
             {/* UI/UX */}
             <div className="bg-[#0a5d4f] w-full rounded-lg xl:w-[1000px] p-5 drop-shadow-lg hover:translate-y-2 duration-500">
               <div className="mt-3">

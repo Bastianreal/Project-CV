@@ -19,7 +19,7 @@ module.exports = {
       },
       keyframes : {
         geser : {
-          '0%' : { transform : 'translateX(3rem)' },
+          '0%' : { transform : 'translateY(-3rem)' },
           '100%' : { transform : 'translateX(0)'},
         },
       fadein : {
